@@ -1,0 +1,1 @@
+I represent an interface which represents an analyser of a ClapMatch

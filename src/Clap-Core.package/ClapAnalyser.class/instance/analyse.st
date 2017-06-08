@@ -1,0 +1,3 @@
+analyzing
+analyse
+	self subclassResponsibility 

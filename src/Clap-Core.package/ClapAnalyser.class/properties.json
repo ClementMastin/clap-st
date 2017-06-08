@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "ClementMastin 6/8/2017 13:54",
+	"super" : "Object",
+	"category" : "Clap-Core-Support",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"match"
+	],
+	"name" : "ClapAnalyser",
+	"type" : "normal"
+}
