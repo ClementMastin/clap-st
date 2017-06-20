@@ -1,3 +1,3 @@
 instance creation
 withAll: parameters
-	^ self new addAll: parameters
+	^ self new addValues: parameters

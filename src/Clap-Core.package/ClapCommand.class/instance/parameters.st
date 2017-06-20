@@ -1,6 +1,6 @@
 accessing
 parameters
 	^ ClapAlternative new
-		addAll: flags;
-		addAll: subcommands;
+		addValues: flags;
+		addValues: subcommands;
 		add: (ClapQueue withAll: positionals)
