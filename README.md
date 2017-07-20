@@ -34,7 +34,7 @@ To create a command, you must respect this syntax:
 ```
 command flags positionals subcommand
 ```
-Flags and positionals can be at any position but subcommand must be at least position, else the matching doesn't suceed
+Flags and positionals can be at any position but subcommand must be at least position, else the matching doesn't succeed
 
 ### API
 To create an argument, you must use the withName: method:
@@ -62,11 +62,16 @@ To add a description to one of it(used in documentation):
 command description: description
 ```
 
-
 To represent what is it typed in the command line(example for the git add command):
 ```smalltalk
 ClapContext on: #('git' 'add')
 ```
+
+To do a match:
+```smalltalk
+command matchOn: context
+```
+
 
 [travis]: https://travis-ci.org/cdlm/clap-st
 [travis-status]: https://travis-ci.org/cdlm/clap-st.svg?branch=master
