@@ -50,6 +50,11 @@ To add a subcommand to a command:
 command addSubcommand: (ClapCommand withName: subcommandNamee)
 ```
 
+To add a description to one of it(used in documentation):
+```smalltalk
+command description: description
+```
+
 [travis]: https://travis-ci.org/cdlm/clap-st
 [travis-status]: https://travis-ci.org/cdlm/clap-st.svg?branch=master
 [coveralls]: https://coveralls.io/github/cdlm/clap-st?branch=master
