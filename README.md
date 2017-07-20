@@ -62,6 +62,12 @@ To add a description to one of it(used in documentation):
 command description: description
 ```
 
+
+To represent what is it typed in the command line(example for the git add command):
+```smalltalk
+ClapContext on: #('git' 'add')
+```
+
 [travis]: https://travis-ci.org/cdlm/clap-st
 [travis-status]: https://travis-ci.org/cdlm/clap-st.svg?branch=master
 [coveralls]: https://coveralls.io/github/cdlm/clap-st?branch=master
