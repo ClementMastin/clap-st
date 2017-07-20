@@ -1,1 +1,1 @@
-I represent a class which is a command example for doc generation.
+A complex command

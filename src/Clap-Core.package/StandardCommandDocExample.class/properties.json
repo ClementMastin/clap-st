@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ComplexCommandDocExample",
+	"name" : "StandardCommandDocExample",
 	"type" : "normal"
 }

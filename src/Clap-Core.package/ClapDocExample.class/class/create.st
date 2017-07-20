@@ -1,3 +1,3 @@
-documentation
-description
+instance creation
+create
 	^ self subclassResponsibility 
