@@ -35,6 +35,11 @@ To create an argument, you must use the withName: method:
 ClapCommand withName: aName
 ```
 
+To add a flag to a command:
+```smalltalk
+command addFlag: (ClapFlag withName: flagName)
+```
+
 [travis]: https://travis-ci.org/cdlm/clap-st
 [travis-status]: https://travis-ci.org/cdlm/clap-st.svg?branch=master
 [coveralls]: https://coveralls.io/github/cdlm/clap-st?branch=master
