@@ -57,6 +57,13 @@ To add a subcommand to a command:
 command addSubcommand: (ClapCommand withName: subcommandName)
 ```
 
+To get all positionals, flags and subcommands:
+```smalltalk
+command positionals.
+command flags.
+command subcommands
+```
+
 To add a description to one of it(used in documentation):
 ```smalltalk
 command description: description
