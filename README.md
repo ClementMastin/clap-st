@@ -40,6 +40,16 @@ To add a flag to a command:
 command addFlag: (ClapFlag withName: flagName)
 ```
 
+To add a positional to a command of flag:
+```smalltalk
+command addPositional: (ClapPositional withName: positionalName)
+```
+
+To add a subcommand to a command:
+```smalltalk
+command addSubcommand: (ClapCommand withName: subcommandNamee)
+```
+
 [travis]: https://travis-ci.org/cdlm/clap-st
 [travis-status]: https://travis-ci.org/cdlm/clap-st.svg?branch=master
 [coveralls]: https://coveralls.io/github/cdlm/clap-st?branch=master
