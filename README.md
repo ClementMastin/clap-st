@@ -54,7 +54,7 @@ command addPositional: (ClapPositional withName: positionalName)
 
 To add a subcommand to a command:
 ```smalltalk
-command addSubcommand: (ClapCommand withName: subcommandNamee)
+command addSubcommand: (ClapCommand withName: subcommandName)
 ```
 
 To add a description to one of it(used in documentation):
@@ -73,6 +73,10 @@ command matchOn: context
 ```
 
 
+To see if a match succeed:
+```smalltalk
+match isMismatch
+```
 [travis]: https://travis-ci.org/cdlm/clap-st
 [travis-status]: https://travis-ci.org/cdlm/clap-st.svg?branch=master
 [coveralls]: https://coveralls.io/github/cdlm/clap-st?branch=master
