@@ -22,6 +22,14 @@ Metacello new baseline: 'Clap';
    load.
 ```
 
+## Tutorial
+
+There are three type of arguments in CLAP:
+
+- Commands
+- Flags
+- Positionals
+
 [travis]: https://travis-ci.org/cdlm/clap-st
 [travis-status]: https://travis-ci.org/cdlm/clap-st.svg?branch=master
 [coveralls]: https://coveralls.io/github/cdlm/clap-st?branch=master
