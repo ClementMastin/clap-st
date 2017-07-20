@@ -30,6 +30,11 @@ There are three type of arguments in CLAP:
 - Flags
 - Positionals
 
+To create a command, you must respect this syntax:
+```
+command flags positionals subcommand
+```
+
 To create an argument, you must use the withName: method:
 ```smalltalk
 ClapCommand withName: aName
