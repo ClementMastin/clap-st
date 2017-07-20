@@ -5,4 +5,5 @@ printCategory: aString of: args
 	args size = 0
 		ifFalse: [ self addToStream: self newLineString , aString , self newLineString.
 			args
-				do: [ :a | self addToStream: (a accept: self) , String tab , a description , self newLineString  ] ]
+				do: [ :a | self addToStream: (a accept: self) , String tab , a description , self newLineString ] ]
+

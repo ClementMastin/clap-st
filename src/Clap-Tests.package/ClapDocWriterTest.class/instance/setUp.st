@@ -9,4 +9,5 @@ setUp
 	argv := (ClapCommand withName: 'foo')
 		addPositional: pos;
 		addFlag: flag.
-	newLine := subject newLineString 
+	newLine := subject newLineString
+
