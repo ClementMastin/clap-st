@@ -16,7 +16,7 @@ cd clap-st
 curl get.pharo.org/alpha | bash
 ```
 …and then, in the image just downloaded, open a workspace and evaluate:
-```
+```smalltalk
 Metacello new baseline: 'Clap';
    repository: 'gitlocal://./src';
    load.
