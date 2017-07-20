@@ -36,6 +36,7 @@ command flags positionals subcommand
 ```
 Flags and positionals can be at any position but subcommand must be at least position, else the matching doesn't suceed
 
+### API
 To create an argument, you must use the withName: method:
 ```smalltalk
 ClapCommand withName: aName
