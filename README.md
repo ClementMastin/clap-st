@@ -84,6 +84,14 @@ To see if a match succeed:
 ```smalltalk
 match isMismatch
 ```
+
+#### Documentation
+To generate command doc:
+```smalltalk
+(ClapDocWriter new: stream) generateDoc: command
+```
+
+
 [travis]: https://travis-ci.org/cdlm/clap-st
 [travis-status]: https://travis-ci.org/cdlm/clap-st.svg?branch=master
 [coveralls]: https://coveralls.io/github/cdlm/clap-st?branch=master
