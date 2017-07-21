@@ -76,15 +76,29 @@ To represent what is it typed in the command line(example for the git add comman
 ClapContext on: #('git' 'add')
 ```
 
+#### Matching
 To do a match:
 ```smalltalk
 command matchOn: context
 ```
 
+When a command is matched:
+- if it's succeed, it will return respectively for a command, flag or positional matching, a ClapCommandMatch, a ClapFlagMatch or a ClapPositionalMatch.
+- if it's failed, it will return a ClapMismatch.
 
 To see if a match succeed:
 ```smalltalk
 match isMismatch
+```
+
+To get an argument match by an instance:
+```smalltalk
+match at: instance
+```
+
+To get an argument by its name:
+```smalltalk
+match atName: name
 ```
 
 #### Documentation
