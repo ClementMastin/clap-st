@@ -7,6 +7,8 @@ this is an independent implementation.
 
 Currently still in the design discovery phase; tests use [Mocketry](http://smalltalkhub.com/#!/~dionisiy/Mocketry).
 
+It should replace the CommandLine Handler in Pharo 7.
+
 ### Loading instructions
 
 In your preferred terminal & shell:
