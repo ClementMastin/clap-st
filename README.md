@@ -109,7 +109,7 @@ command := (ClapCommand withName: 'main') addFlag: flag.
 match := command matchOn: (ClapContext on: #('main' '--force').
 "To get with an instance"
 match at: flag.
-"To get with flag's name"
+"To get with flag name"
 match atName: 'force
 ```
 
