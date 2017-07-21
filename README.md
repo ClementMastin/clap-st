@@ -110,7 +110,7 @@ match := command matchOn: (ClapContext on: #('main' '--force')).
 "To get with an instance"
 match at: flag.
 "To get with flag name"
-match atName: 'force
+match atName: 'force'
 ```
 
 #### Documentation
