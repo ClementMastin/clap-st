@@ -91,7 +91,7 @@ To see if a match succeed:
 match isMismatch
 ```
 
-To get an argument match by an instance:
+To get an argument match by an instance of ClapCommand, ClapPositional or ClapFlag:
 ```smalltalk
 match at: instance
 ```
@@ -99,6 +99,18 @@ match at: instance
 To get an argument by its name:
 ```smalltalk
 match atName: name
+```
+
+Example:
+```smalltalk
+"Create a commande main --force"
+flag := ClapFlag withName: 'force.
+command := (ClapCommand withName: 'main') addFlag: flag.
+match := command matchOn: (ClapContext on: #('main' '--force').
+'To get with an instance'
+match at: flag.
+'To get with flag's name'
+match atName: 'force
 ```
 
 #### Documentation
