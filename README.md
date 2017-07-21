@@ -106,7 +106,7 @@ Example:
 "Create a commande main --force"
 flag := ClapFlag withName: force.
 command := (ClapCommand withName: 'main') addFlag: flag.
-match := command matchOn: (ClapContext on: #('main' '--force').
+match := command matchOn: (ClapContext on: #('main' '--force')).
 "To get with an instance"
 match at: flag.
 "To get with flag name"
