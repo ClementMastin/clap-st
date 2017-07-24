@@ -23,7 +23,7 @@ Metacello new baseline: 'Clap';
    repository: 'gitlocal://./src';
    load.
 ```
-___
+
 ## Tutorial
 
 There are three type of arguments in CLAP:
