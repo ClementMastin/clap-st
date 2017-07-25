@@ -1,6 +1,7 @@
-documentation
+doc
 simpleCommand
 	"A simple command"
+
 	<sampleInstance>
 	| doc verbose class |
 	doc := ClapCommand withName: 'doc'.

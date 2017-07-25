@@ -1,6 +1,7 @@
-documentation
+doc
 complexCommand
 	"A command which has many subcommands"
+
 	<sampleInstance>
 	| main subcommand subsubcommand ston utf |
 	main := ClapCommand withName: 'main'.

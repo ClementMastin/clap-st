@@ -1,6 +1,7 @@
-documentation
+doc
 flagWithPositional
 	"A command whith a flag which has a positional"
+
 	<sampleInstance>
 	| command flag |
 	command := ClapCommand withName: 'main'.

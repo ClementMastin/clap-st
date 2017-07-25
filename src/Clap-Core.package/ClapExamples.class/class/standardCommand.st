@@ -1,6 +1,7 @@
-documentation
+doc
 standardCommand
 	"A standard command"
+
 	<sampleInstance>
 	| player mine move |
 	player := ClapCommand withName: 'player'.
