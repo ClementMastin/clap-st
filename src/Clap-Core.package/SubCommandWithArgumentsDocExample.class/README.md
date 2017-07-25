@@ -1,1 +1,0 @@
-A command with a subcommand which has arguments
