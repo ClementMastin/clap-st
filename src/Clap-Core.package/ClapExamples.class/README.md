@@ -1,0 +1,1 @@
+I am a class which has examples for doc generation

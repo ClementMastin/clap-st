@@ -6,7 +6,7 @@ To create a new instance:
 	
 If you want to put all examples in a file stream:
 
-	ClapDocExample on: FileStream fileNamed: <fileName>
+	ClapDocExample on: <aStream>
 	
 To generate all examples:
 	docExample generateExamples
