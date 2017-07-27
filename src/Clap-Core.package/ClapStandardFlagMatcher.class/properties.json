@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ClapAbstractNormalFlagMatcher",
+	"name" : "ClapStandardFlagMatcher",
 	"type" : "normal"
 }
