@@ -1,13 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "ClapAbstractMatcher",
 	"category" : "Clap-Core-Matcher",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"stream"
-	],
-	"name" : "ClapAbstractMatcher",
+	"instvars" : [ ],
+	"name" : "ClapCommandMatcher",
 	"type" : "normal"
 }

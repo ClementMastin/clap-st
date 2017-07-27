@@ -1,3 +1,3 @@
 adding
 addSubcommand: aCommand
-	subcommands add: aCommand
+	subcommands at: aCommand canonicalName put: aCommand
