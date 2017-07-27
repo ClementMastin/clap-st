@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ClapAbstractPositionalMatcher",
+	"name" : "ClapPositionalMatcher",
 	"type" : "normal"
 }
