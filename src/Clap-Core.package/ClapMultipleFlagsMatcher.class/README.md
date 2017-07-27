@@ -1,0 +1,1 @@
+I am a class in order to allow to recognise multiple flags arguments

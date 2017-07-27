@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Error",
-	"category" : "Clap-Core-Exceptions",
+	"super" : "ClapAbstractFlagMatcher",
+	"category" : "Clap-Core-Matcher",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "BadNumberTime",
+	"name" : "ClapLongFlagMatcher",
 	"type" : "normal"
 }
