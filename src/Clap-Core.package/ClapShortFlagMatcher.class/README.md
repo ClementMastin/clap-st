@@ -1,0 +1,1 @@
+I am a matcher for short flags.

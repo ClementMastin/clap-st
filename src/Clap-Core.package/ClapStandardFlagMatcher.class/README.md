@@ -1,0 +1,1 @@
+I am a matcher for flags which can be recognized under short and long form.

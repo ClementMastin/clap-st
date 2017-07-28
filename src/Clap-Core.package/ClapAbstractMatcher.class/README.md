@@ -1,0 +1,1 @@
+I am an abstract matcher for all kinds of arguments.

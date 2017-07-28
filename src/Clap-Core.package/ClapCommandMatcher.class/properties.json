@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "ClementMastin 7/28/2017 10:54",
 	"super" : "ClapAbstractMatcher",
 	"category" : "Clap-Core-Matcher",
 	"classinstvars" : [ ],
