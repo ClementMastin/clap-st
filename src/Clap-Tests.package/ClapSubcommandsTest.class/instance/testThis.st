@@ -2,8 +2,7 @@ running
 testThis
 	| argv match |
 	argv := ClapContext on: #('clap' 'this').
-	match := clap matchOn: argv.
-	
+	match := ClapCommandMatcher new match: clap with: argv.
 	match should not be isMismatch.
 	match should not be includesKey: 'directory'.
 	match should be includesKey: 'this'.

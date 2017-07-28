@@ -2,8 +2,6 @@ tests
 testMismatchesDifferentAlias
 	| match |
 	argv stub peek willReturn: 'fooNOT'.
-	
-	match := subject matchOn: argv.
-	
+	match := ClapCommandMatcher new match: subject with: argv.
 	argv should not receive next.
 	match should be isMismatch

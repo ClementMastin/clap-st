@@ -2,6 +2,5 @@ running
 testWrongFlagMismatches
 	| argv match |
 	argv := ClapContext on: #('clap' '-f' 'bar/baz/qux' 'this').
-	match := clap matchOn: argv.
-	
+	match := ClapCommandMatcher new match: clap with: argv.
 	match should be isMismatch

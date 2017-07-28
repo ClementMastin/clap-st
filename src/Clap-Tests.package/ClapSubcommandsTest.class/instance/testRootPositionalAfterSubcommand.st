@@ -2,6 +2,5 @@ running
 testRootPositionalAfterSubcommand
 	| argv match |
 	argv := ClapContext on: #('clap' 'this' '--directory' 'foo/bar/baz').
-	match := clap matchOn: argv.
-	
-	match should be isMismatch.
+	match := ClapCommandMatcher new match: clap with: argv.
+	match should be isMismatch
