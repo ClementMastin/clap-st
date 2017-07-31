@@ -1,0 +1,3 @@
+doc
+addCode
+	^ self subclassResponsibility 

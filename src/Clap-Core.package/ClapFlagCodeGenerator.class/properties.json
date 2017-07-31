@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ClapAbstractCodeGenerator",
+	"category" : "Clap-Core-DocExample",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"file"
+	],
+	"name" : "ClapFlagCodeGenerator",
+	"type" : "normal"
+}

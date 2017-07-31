@@ -1,0 +1,3 @@
+doc
+addArg
+	^ self subclassResponsibility 
