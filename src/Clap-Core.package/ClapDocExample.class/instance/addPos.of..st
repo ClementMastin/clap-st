@@ -1,3 +1,3 @@
 doc
 addPos: args of: aString
-	self addArgs: args of: aString with: 'ClapPositional ' 
+	self addToFile: (ClapPositionalCodeGenerator generateCode: args of: aString)

@@ -1,3 +1,3 @@
 doc
 addFlags: args of: aString
-	self addArgs: args of: aString with: 'ClapFlag '
+	self addToFile: (ClapFlagCodeGenerator generateCode: args of: aString )
