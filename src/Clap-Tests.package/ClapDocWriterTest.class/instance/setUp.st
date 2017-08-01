@@ -10,4 +10,3 @@ setUp
 		addPositional: pos;
 		addFlag: flag.
 	newLine := subject newLineString
-

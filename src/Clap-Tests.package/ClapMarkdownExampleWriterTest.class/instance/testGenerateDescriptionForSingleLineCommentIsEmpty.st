@@ -1,4 +1,0 @@
-tests-title
-testGenerateDescriptionForSingleLineCommentIsEmpty
-	self assertDecriptionOfMethod: ClapExamplesForTesting class >> #exampleWithSingleLineComment
-	expected: self newLine

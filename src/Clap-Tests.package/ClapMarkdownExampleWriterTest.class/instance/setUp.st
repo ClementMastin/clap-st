@@ -1,5 +1,5 @@
 running
 setUp
 	super setUp.
-	stream := '' writeStream.
+	stream := '' file.
 	subject := ClapMarkdownExampleWriter on: stream.

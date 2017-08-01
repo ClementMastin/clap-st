@@ -1,3 +1,3 @@
 accessing
-file
+writeStream
 	^ writeStream

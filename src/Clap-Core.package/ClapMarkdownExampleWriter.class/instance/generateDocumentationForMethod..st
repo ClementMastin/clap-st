@@ -6,7 +6,7 @@ generateDocumentationForMethod: aMethod
 	self
 		nextPutAll: '```';
 		writeNewLine.
-	writer := ClapDocWriter new: '' writeStream.
+	writer := ClapDocWriter new: '' file.
 	writer generateDocumentationForMethod: (aMethod valueWithReceiver: self class arguments: #()).
 	self generateCode: (aMethod valueWithReceiver: self class arguments: #()).
 	self
