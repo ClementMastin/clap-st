@@ -2,4 +2,4 @@ tests-title
 testGenerateDescriptionForMultilineCommentWithSpace
 	self
 		assertDecriptionOfMethod: ClapExamplesForTesting class >> #exampleWithMultilineWithSpaceComment
-		expected: 'A second line' , self newLine
+		expected: String tab , 'A second line' , self newLine
