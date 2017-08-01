@@ -1,5 +1,5 @@
 tests-title
 testGenerateTitleForNoComment
 	self
-		assertMethodWithGoodComment: ClapExamplesForTesting class >> #exampleWithNoComment
+		assertTitleOfMethodWithGoodComment: ClapExamplesForTesting class >> #exampleWithNoComment
 		expected: '## ', self newLine

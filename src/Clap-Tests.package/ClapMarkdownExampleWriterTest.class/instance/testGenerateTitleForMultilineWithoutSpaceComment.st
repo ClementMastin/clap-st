@@ -1,3 +1,3 @@
 tests-title
 testGenerateTitleForMultilineWithoutSpaceComment
-self assertMethodWithGoodComment:  ClapExamplesForTesting class >> #exampleWithMultilineWithoutSpaceComment
+self assertTitleOfMethodWithGoodComment:  ClapExamplesForTesting class >> #exampleWithMultilineWithoutSpaceComment

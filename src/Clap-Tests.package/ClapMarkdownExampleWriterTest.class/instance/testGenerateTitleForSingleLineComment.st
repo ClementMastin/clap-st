@@ -1,4 +1,4 @@
 tests-title
 testGenerateTitleForSingleLineComment
 
-	self assertMethodWithGoodComment: ClapExamplesForTesting class >> #exampleWithSingleLineComment
+	self assertTitleOfMethodWithGoodComment: ClapExamplesForTesting class >> #exampleWithSingleLineComment
