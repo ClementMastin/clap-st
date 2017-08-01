@@ -1,0 +1,3 @@
+doc
+generateExamples
+	self generateExamplesForClass: ClapExamples
