@@ -1,0 +1,2 @@
+doc
+generateCode: anExample

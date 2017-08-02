@@ -10,6 +10,6 @@
 		"argv",
 		"expected"
 	],
-	"name" : "ClapGenerateCodeTest",
+	"name" : "ClapAbstractGenerateCodeTest",
 	"type" : "normal"
 }
