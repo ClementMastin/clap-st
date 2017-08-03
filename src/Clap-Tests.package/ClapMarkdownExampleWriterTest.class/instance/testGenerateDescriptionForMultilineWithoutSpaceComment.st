@@ -1,4 +1,4 @@
-tests-title
+tests-description
 testGenerateDescriptionForMultilineWithoutSpaceComment
 	self
 		assertDecriptionOfMethod: ClapExamplesForTesting class >> #exampleWithMultilineWithoutSpaceComment

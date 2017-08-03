@@ -1,13 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "ClapAbstractCodeGenerator",
+	"super" : "ClapAbstractParameterizedCodeGenerator",
 	"category" : "Clap-Core-DocExample",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"file"
-	],
+	"instvars" : [ ],
 	"name" : "ClapCommandCodeGenerator",
 	"type" : "normal"
 }

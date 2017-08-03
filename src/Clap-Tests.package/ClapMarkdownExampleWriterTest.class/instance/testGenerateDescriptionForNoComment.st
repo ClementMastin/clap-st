@@ -1,4 +1,4 @@
-tests-title
+tests-description
 testGenerateDescriptionForNoComment
 	self
 		assertDecriptionOfMethod: ClapExamplesForTesting class >> #exampleWithNoComment
