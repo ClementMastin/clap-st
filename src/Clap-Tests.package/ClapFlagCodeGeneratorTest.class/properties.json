@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "ClapParameterizedCodeGenerator",
-	"category" : "Clap-Core-DocExample",
+	"super" : "ClapParameterizedCodeGeneratorTest",
+	"category" : "Clap-Tests-Unit",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ClapCommandCodeGenerator",
+	"name" : "ClapFlagCodeGeneratorTest",
 	"type" : "normal"
 }

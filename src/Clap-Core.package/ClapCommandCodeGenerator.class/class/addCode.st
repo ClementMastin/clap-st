@@ -1,3 +1,3 @@
 doc
 addCode
-	^ ' addCommand: '
+	^ ' addSubcommand: '

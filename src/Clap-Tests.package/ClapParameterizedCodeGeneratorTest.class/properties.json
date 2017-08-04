@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ClapAbstractCodeGeneratorTest",
+	"category" : "Clap-Tests-Unit",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ClapParameterizedCodeGeneratorTest",
+	"type" : "normal"
+}

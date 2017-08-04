@@ -8,6 +8,6 @@
 	"instvars" : [
 		"file"
 	],
-	"name" : "ClapAbstractParameterizedCodeGenerator",
+	"name" : "ClapParameterizedCodeGenerator",
 	"type" : "normal"
 }
