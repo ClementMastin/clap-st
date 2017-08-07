@@ -13,7 +13,7 @@ COMMANDS:
 git 	
 other 	
 
-```
+```smalltalk
 main:= ClapCommand withName: main.
 ston := ClapFlag withName: ston.
 object := ClapPositional withName: object.
@@ -40,7 +40,7 @@ main --depth,-d <number>
 OPTIONS:
 --depth,-d <number> 	
 
-```
+```smalltalk
 main:= ClapCommand withName: main.
 depth := ClapFlag withName: depth.
 number := ClapPositional withName: number.
@@ -58,7 +58,7 @@ OPTIONS:
 ARGS:
 <class> 	The name of the class to doc
 
-```
+```smalltalk
 doc:= ClapCommand withName: doc.
 class := ClapPositional withName: class.
 doc addPositional: class.
@@ -75,7 +75,7 @@ COMMANDS:
 sub1 	
 sub2 	
 
-```
+```smalltalk
 main:= ClapCommand withName: main.
 sub1:= ClapCommand withName: sub1.
 main addSubcommand: sub1.
@@ -90,7 +90,7 @@ main <class>
 ARGS:
 <class> 	
 
-```
+```smalltalk
 main:= ClapCommand withName: main.
 class := ClapPositional withName: class.
 main addPositional: class.
@@ -110,7 +110,7 @@ COMMANDS:
 mine 	
 move 	
 
-```
+```smalltalk
 player:= ClapCommand withName: player.
 fast := ClapFlag withName: fast.
 player addFlag: fast.
@@ -137,7 +137,7 @@ main --force,-f
 OPTIONS:
 --force,-f 	
 
-```
+```smalltalk
 main:= ClapCommand withName: main.
 force := ClapFlag withName: force.
 main addFlag: force.
