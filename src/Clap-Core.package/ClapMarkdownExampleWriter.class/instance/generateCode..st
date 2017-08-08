@@ -1,3 +1,3 @@
 doc
-generateCode: anExample
-	self nextPutAll: (ClapCommandCodeGenerator generateCode: anExample)
+generateCode: aMethod
+	self nextPutAll: aMethod ast body formattedCode 

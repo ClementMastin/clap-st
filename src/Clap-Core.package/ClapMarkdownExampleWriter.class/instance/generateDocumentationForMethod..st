@@ -10,8 +10,7 @@ generateDocumentationForMethod: aMethod
 	self
 		nextPutAll: '```';
 		writeNewLine.
-	self generateCode: (aMethod valueWithReceiver: self class arguments: #()).
+	self generateCode: aMethod.
 	self
-		
 		nextPutAll: '```';
 		writeNewLine
