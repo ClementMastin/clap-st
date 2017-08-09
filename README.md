@@ -22,6 +22,14 @@ Metacello new baseline: 'Clap';
    load.
 ```
 
+Or inside Pharo by running this line in a Playground
+```
+Metacello new
+  githubUser: 'ClementMastin' project: 'clap-st' commitish: 'master' path: './src';
+  baseline: 'Clap';
+  load.
+```
+
 [travis]: https://travis-ci.org/cdlm/clap-st
 [travis-status]: https://travis-ci.org/cdlm/clap-st.svg?branch=master
 [coveralls]: https://coveralls.io/github/cdlm/clap-st?branch=master
