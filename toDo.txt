@@ -1,4 +1,3 @@
-Doc generation
 Semantic check
 Error raises (syntaxic and semanctic)
-CLH link
+
